@@ -90,7 +90,7 @@ def meet_kitty(backpack):
     elif not backpack.treasures:
         print(f"Kitties dig those who dig in the trash. You met {kitty.title()}, but you have nothing to offer.")
     elif kitty not in backpack.phonebook:
-        user_input = input(f"You met {kitty.title()}. Offer them one of your treasures: {backpack.treasures}\nHere's a hint: {kitties[kitty][]}>")
+        user_input = input(f"You met {kitty.title()}. Offer them one of your treasures: {backpack.treasures}\nHere's a hint: {kitties[kitty]['hint']}>")
         if user_input == kitties[kitty][2]:
             backpack.phonebook.append(kitty)
             backpack.treasures.remove(user_input)
