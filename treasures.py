@@ -1,0 +1,1 @@
+treasures = ["usb drive", "four-leaved clover", "ring from the black lodge", "meteor", "iris flower", "lilac scarf", "hair clip", "half a doobie", "rat scull", "toothbrush", "thongs", "tennis ball", "golden pencil", "fidget spinner", "pretty rock", "french perfume", "ostrich egg", "baby shoes", "wedding ring"]
